@@ -15,6 +15,8 @@
 
 首先安装面板免费版
 
+yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
+
 然后升级专业版
 
 wget -O update.sh http://download.bt.cn/install/update_pro.sh && bash update.sh pro
