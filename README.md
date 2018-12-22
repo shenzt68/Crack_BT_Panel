@@ -47,6 +47,7 @@ sudo su root
 2.升级到宝塔专业版
 wget -O update.sh http://download.bt.cn/install/update_pro.sh && bash update.sh pro
 3.运行
+touch /www/server/panel/data/userInfo.json
 echo > /www/server/panel/data/userInfo.json
 4.重启面板
 /etc/init.d/bt restart
